@@ -1,3 +1,56 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# 编译产物（C/C++）
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# 构建文件夹
+build/
+dist/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+
+# 模型文件（可选，根据需要忽略）
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# 数据缓存（如 Hugging Face 或自定义临时缓存）
+*.log
+*.tmp
+.cache/
+output/
+results/
+
+# IDE 相关（根据你用的工具选择）
+.vscode/
+.idea/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+#——————————————————————————————上文gpt 下文github 均为系统自行生成 不知道是否会矛盾#
 # Prerequisites
 *.d
 
